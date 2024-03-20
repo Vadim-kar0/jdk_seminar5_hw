@@ -1,9 +1,9 @@
-package org.hw;
+package org.example;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Table {public static final int COUNT_OF_PEOPLE = 5;
+public class Table {
 
     private static  Fork fork0 = new Fork("0");
     private static   Fork fork1 = new Fork("1");
@@ -14,7 +14,6 @@ public class Table {public static final int COUNT_OF_PEOPLE = 5;
     public static ArrayList<Fork> table = new ArrayList<>(Arrays.asList(fork0,fork1,fork2,fork3,fork4));
 
     public static void main(String[] args) {
-        System.out.println("lajsd;lfk");
 
         Philosopher philosopher1 = new Philosopher("0");
         Philosopher philosopher2 = new Philosopher("1");

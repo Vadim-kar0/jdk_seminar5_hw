@@ -1,4 +1,4 @@
-package org.hw;
+package org.example;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -7,7 +7,6 @@ public class Philosopher extends Thread{
 
     private Fork leftFork;
     private Fork rightFork;
-    private AtomicBoolean hasTwoForks = new AtomicBoolean(false);
     private CountDownLatch satiety = new CountDownLatch(3);
 
 
